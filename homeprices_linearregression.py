@@ -12,3 +12,9 @@ y_pred = model.predict(x_test)
 print(y_pred,y_test)
 print(model.score(x_test,y_test))
 #0.9232979137811631 accurate yayyyy
+try:
+    import joblib as jb
+    jb.dump(model, "homeprices_linearregression.pkl")
+    print("Model saved successfully!")
+except Exception as e:
+    print(f"Error saving model: {e}")
