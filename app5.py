@@ -5,3 +5,4 @@ with str.sidebar:
 if x:
     str.write("hehe")      
     
+ #to run use streamlit run "the file" inside the terminal

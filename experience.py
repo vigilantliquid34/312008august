@@ -20,3 +20,4 @@ str.text(f"i'm {mod_score * 100} sure!")
 
 import matplotlib.pyplot as plt
 str.checkbox("ass")
+ #to run use streamlit run "the file" inside the terminal

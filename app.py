@@ -23,3 +23,4 @@ y = multiplication(x)
    
 str.write(y) 
 ########################################################
+ #to run use streamlit run "the file" inside the terminal

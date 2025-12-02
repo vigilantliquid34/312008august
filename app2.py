@@ -19,3 +19,4 @@ model.fit(x,y)
 str.write(model.score(x,y) * 100)
 xx = str.number_input("what's the area",max_value=7000)
 str.write(model.predict([[xx]]))
+ #to run use streamlit run "the file" inside the terminal

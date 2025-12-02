@@ -5,3 +5,4 @@ str.video("Dark Red.mp4",width = 600)
 str.video("Snap My Finger.mp4",width = 600)
 str.video("Washing Machine Heart.mp4",width = 600)
 str.video("Borderline.mp4",width = 600)
+ #to run use streamlit run "the file" inside the terminal
